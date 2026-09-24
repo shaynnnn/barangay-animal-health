@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Barangay Animal Healthcare System
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="brand">
+
+        <svg
+            class="paw-logo"
+            viewBox="0 0 100 100">
+
+            <ellipse
+                cx="50"
+                cy="63"
+                rx="27"
+                ry="24"/>
+
+            <ellipse
+                cx="25"
+                cy="35"
+                rx="10"
+                ry="15"
+                transform="rotate(-30 25 35)"/>
+
+            <ellipse
+                cx="43"
+                cy="22"
+                rx="10"
+                ry="15"
+                transform="rotate(-10 43 22)"/>
+
+            <ellipse
+                cx="62"
+                cy="22"
+                rx="10"
+                ry="15"
+                transform="rotate(10 62 22)"/>
+
+            <ellipse
+                cx="78"
+                cy="35"
+                rx="10"
+                ry="15"
+                transform="rotate(30 78 35)"/>
+
+        </svg>
+
+        <div class="brand-name">
+
+            <div>Barangay Animal</div>
+            <div>Healthcare System</div>
+
+        </div>
+
+    </div>
+
+
+    <button
+        class="menu-toggle"
+        onclick="toggleMenu()">
+
+        ☰
+
+    </button>
+
+
+    <nav id="mainNav">
+
+        <a
+            href="index.html"
+            class="active">
+
+            Home
+
+        </a>
+
+        <a href="modules/registry.html">
+
+            Registry
+
+        </a>
+
+        <a href="modules/vaccination.html">
+
+            Vaccination
+
+        </a>
+
+        <a href="modules/bitecases.html">
+
+            Bite Cases
+
+        </a>
+
+        <a href="modules/adoption.html">
+
+            Adoption
+
+        </a>
+
+        <a href="modules/missions.html">
+
+            Missions
+
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main class="home-content">
+
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>
+
+                Healthy Pets,<br>
+                Safe Community
+
+            </h1>
+
+            <div class="hero-line"></div>
+
+            <p>
+
+                A community-driven platform for pet care,
+                vaccination, bite case reporting, adoption,
+                and animal welfare missions.
+
+            </p>
+
+            <a
+                href="modules/registry.html"
+                class="hero-button">
+
+                Get Started →
+
+            </a>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <img
+                src="Images/dog-cat.png"
+                alt="Dog and cat">
+
+        </div>
+
+    </section>
+
+
+    <section class="about-section">
+
+        <div class="about-heading">
+
+            <span></span>
+
+            <h2>
+
+                About Us
+
+            </h2>
+
+            <span></span>
+
+        </div>
+
+
+        <p class="about-description">
+
+            Our barangay values responsible pet ownership
+            and community safety. This system helps track
+            vaccinations, monitor bite cases, support adoption,
+            and organize animal welfare missions.
+
+        </p>
+
+
+        <div class="service-cards">
+
+
+            <!-- PET REGISTRY -->
+
+            <a
+                href="modules/registry.html"
+                class="service-card">
+
+                <div class="service-icon">
+
+                    <svg viewBox="0 0 100 100">
+
+                        <ellipse
+                            cx="50"
+                            cy="63"
+                            rx="27"
+                            ry="24"/>
+
+                        <ellipse
+                            cx="25"
+                            cy="35"
+                            rx="10"
+                            ry="15"/>
+
+                        <ellipse
+                            cx="43"
+                            cy="22"
+                            rx="10"
+                            ry="15"/>
+
+                        <ellipse
+                            cx="62"
+                            cy="22"
+                            rx="10"
+                            ry="15"/>
+
+                        <ellipse
+                            cx="78"
+                            cy="35"
+                            rx="10"
+                            ry="15"/>
+
+                    </svg>
+
+                </div>
+
+                <div>
+
+                    <h3>
+
+                        Pet Registry
+
+                    </h3>
+
+                    <p>
+
+                        Register & manage local pets
+
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- VACCINATION -->
+
+            <a
+                href="modules/vaccination.html"
+                class="service-card">
+
+                <div class="service-symbol">
+
+                    💉
+
+                </div>
+
+                <div>
+
+                    <h3>
+
+                        Vaccination
+
+                    </h3>
+
+                    <p>
+
+                        Track anti-rabies schedules
+
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- BITE CASE REPORTING -->
+
+            <a
+                href="modules/bitecases.html"
+                class="service-card">
+
+                <div class="service-symbol">
+
+                    🛡
+
+                </div>
+
+                <div>
+
+                    <h3>
+
+                        Bite Case Reporting
+
+                    </h3>
+
+                    <p>
+
+                        Report incidents & medical care
+
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- ADOPTION -->
+
+            <a
+                href="modules/adoption.html"
+                class="service-card">
+
+                <div class="service-symbol">
+
+                    🏠
+
+                </div>
+
+                <div>
+
+                    <h3>
+
+                        Adoption Service
+
+                    </h3>
+
+                    <p>
+
+                        Give rescued animals a home
+
+                    </p>
+
+                </div>
+
+            </a>
+
+
+            <!-- MISSIONS -->
+
+            <a
+                href="modules/missions.html"
+                class="service-card">
+
+                <div class="service-symbol">
+
+                    ✚
+
+                </div>
+
+                <div>
+
+                    <h3>
+
+                        Missions
+
+                    </h3>
+
+                    <p>
+
+                        Join animal welfare activities
+
+                    </p>
+
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    Barangay Animal Health System © 2026
+
+    <span>|</span>
+
+    Contact:
+
+    <a href="mailto:brgyoffice@email.com">
+
+        brgyoffice@email.com
+
+    </a>
+
+</footer>
+
+
+<!-- ==========================================
+     FIREBASE
+     ========================================== -->
+
+<script
+    src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js">
+</script>
+
+<script
+    src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js">
+</script>
+
+<script src="firebase.js"></script>
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
